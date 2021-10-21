@@ -1,0 +1,17 @@
+.panel {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 150px;
+  height: auto;
+  padding: 20px;
+  background-color: #fff;
+  max-height: calc(100vh - 80px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel button:not(:last-child) {
+  margin-bottom: 10px;
+}
